@@ -43,7 +43,7 @@ function SignUpForm() {
         cpass !== pass ? setErrorCpass("Confirm password does not match") : setErrorCpass("")
 
         if (pass === cpass && validName && validEmail && pass.length !== 0) {
-            alert("Sucess")
+            alert("Success")
             localStorage.setItem(email, JSON.stringify(account))
             navigate("/")
         } else {
