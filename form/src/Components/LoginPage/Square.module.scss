@@ -1,0 +1,23 @@
+$primary-color: rgba(17,90,213,1);
+$sub-color: rgba(7,138,229,0.8);
+
+.square {
+    position: fixed;
+    width: 20%;
+    padding-bottom: 20%;
+    border-radius: 18%;
+    background-image: linear-gradient(to right, $primary-color, $sub-color);
+}
+
+.topRight {
+    transform: rotate(30deg);
+    right: -8%;
+    top: -10%;
+}
+
+.bottomLeft {
+    background-image: linear-gradient(to right, $sub-color, $primary-color);
+    bottom: 3%;
+    left: -8%;
+    transform: rotate(48deg);
+}

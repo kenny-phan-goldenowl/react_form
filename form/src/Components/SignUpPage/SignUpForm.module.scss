@@ -1,0 +1,30 @@
+$primary-color: rgba(17,90,213,1);
+$sub-color: rgba(7,138,229,0.8);
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    position: relative;
+}
+
+.form__label {
+    margin: 10px 0;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.link {
+    text-decoration: none;
+    color: $primary-color;
+    &:hover{
+        color: red;
+    }
+}
+
+.icon {
+    position: absolute;
+    right: 10px;
+    bottom: -2px;
+    cursor: pointer;
+}
