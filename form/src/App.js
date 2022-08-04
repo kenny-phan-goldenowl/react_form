@@ -7,9 +7,9 @@ import Home from './Components/HomePage/Home';
 function App() {
   return (
     <Routes>
-      <Route path='/' element={<Login/>}/>
-      <Route path="/SignUp" element={<SignUp/>}/>
-      <Route path="/Home" element={<Home/>}/>
+      <Route path="/" element={<Login/>}/>
+      <Route path="/signup" element={<SignUp/>}/>
+      <Route path="/home" element={<Home/>}/>
     </Routes>
   )
 }

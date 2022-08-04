@@ -109,6 +109,12 @@ $main-font: "Raleway";
     position: relative;
 }
 
+.navigate {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .mainMenu__bottom {
     color: white;
     font-family: $sub-font;

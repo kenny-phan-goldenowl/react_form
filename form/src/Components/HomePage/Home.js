@@ -1,4 +1,5 @@
 import './Home.scss'
+import {Link} from 'react-router-dom'
 
 function Home() {
     return (
@@ -28,7 +29,7 @@ function Home() {
                     </div>
                     <div className="mainMenu__middle-navigate">
                         <p className="item">Next</p>
-                        <p className="item">Prev</p>
+                        <p className="item"><Link className='navigate' to="/">Prev</Link></p>
                     </div>
                 </div>
                 <div className="mainMenu__bottom">

@@ -4,6 +4,7 @@ $primary-color: rgba(17,90,213,1);
 $sub-color: rgba(7,138,229,0.8);
 
 input[type="email"], input[type="password"], input[type='text'] {
+    padding: 2px;
     border-radius: 10px;
     flex: 1;    
     background-color: rgb(235, 234, 234);
