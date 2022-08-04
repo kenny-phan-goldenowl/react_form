@@ -3,13 +3,13 @@ import styles from './Form.module.scss'
 
 function LoginForm() {
     return (
-        <form>
+        <form className={styles.form}>
             <h1>Login</h1>
-            <div className={styles.form}>
+            <div className={styles.row}>
                 <label className={styles.form__label} htmlFor="email">Email ID</label>
                 <input type="email" name='email' id="email"/>
             </div>
-            <div className={styles.form}>
+            <div className={styles.row}>
                 <label className={styles.form__label} htmlFor="pass">Password</label>
                 <input type="password" name='password' id="pass"/>
                 <span className={styles.icon}><i className='bx bx-low-vision'></i></span>

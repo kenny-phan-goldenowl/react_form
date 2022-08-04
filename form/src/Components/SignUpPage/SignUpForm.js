@@ -4,22 +4,22 @@ import styles from './SignUpForm.module.scss' ;
 
 function SignUpForm() {
     return (
-        <form>
+        <form className={styles.form}>
             <h1>Sign Up</h1>
-            <div className={styles.form}>
+            <div className={styles.row}>
                 <label className={styles.form__label} htmlFor="name">Full Name</label>
                 <input type="text" name='name' id="name"/>
             </div>
-            <div className={styles.form}>
+            <div className={styles.row}>
                 <label className={styles.form__label} htmlFor="email">Email ID</label>
                 <input type="email" name='email' id="email"/>
             </div>
-            <div className={styles.form}>
+            <div className={styles.row}>
                 <label className={styles.form__label} htmlFor="pass">Password</label>
                 <input type="password" name='password' id="pass"/>
                 <span className={styles.icon}><i className='bx bx-low-vision'></i></span>
             </div>
-            <div className={styles.form}>
+            <div className={styles.row}>
                 <label className={styles.form__label} htmlFor="cpass">Confirm Password</label>
                 <input type="password" name='cpassword' id="cpass"/>
                 <span className={styles.icon}><i className='bx bx-low-vision'></i></span>

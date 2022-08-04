@@ -5,7 +5,7 @@ import Login from './Components/LoginPage/Login';
 import Home from './Components/HomePage/Home';
 
 function App() {
-return (
+  return (
     <Routes>
       <Route path='/' element={<Login/>}/>
       <Route path="/SignUp" element={<SignUp/>}/>
